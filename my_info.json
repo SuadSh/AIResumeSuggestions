@@ -1,0 +1,9 @@
+{
+    "projects":{
+        "resumeProject":"Created a project in python and C++, the main program decodes a json file which contains the candidates information, calls a python script to scrape a LinkedIn url given by the user, and then send the data from the 2 processes to an integrated ai to alter the candidates experience in order emphasize only the relevant to the company project feats",       
+        "mazeGame":"Created a maze game in C++, in which the user played against the script, so most of the project was trying to teach the computer how to solve an unknown maze before the user",
+        "mipsVHDL":"Created a fully functional (with set instructions) mips design in VHDL"
+    },
+    "programming_languages":"C,C++,C#,Java,Assembly,VHDL,SQL",
+    "framework_experience":"Qt,Unity,XAMPP"
+}
