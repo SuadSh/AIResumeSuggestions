@@ -1,1 +1,7 @@
 # AIResumeSuggestions
+
+# This project reads a json file with your info, receives a LinkedIn job link, calls a python script to log into LinkedIn (so it lets you load the job listing through the Chromedriver) and scrapes the neseccary job data, after that it sends the received data to the cpp script and the cpp scrint sends a prompt to OpenAI via curl, which basically tells the AI to filter the necessary projects only and use the necessary keywords to emphasise the companies needs.
+
+# This project is mainly to showcase the very basic knowledge about C++, Python, AI and Web Scraping. It wasn't meant to be something big. The main purpose of doing it the way it is, it's because companies I wnated to apply for would always ask for C++, A little bit of Python and basic AI Implementation knowledge. thats why the AI Implementation was done in C++ with the limited version of OpenAI, I wanted to keep most of the code C++. If the project raises any attention I'd be happy to create a fully functional python AI Resume Creator based on a selected company.
+
+# In order to use the project you need to have curl installed (preferably with vcpkg so it works with find_package and you wont need to alter the CMakeLists.txt file). The nlohmann/json package is imported via github because people on the internet would have a hard time using it in their projects for some reason, so for people's sake I fetched it from github, if you want you can do the same as curl and use it with vcpkg. Lastly, you will need a Chromedriver so Selenium can access the web.
